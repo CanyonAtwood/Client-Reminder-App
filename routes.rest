@@ -1,0 +1,14 @@
+### 
+GET http://localhost:3000/reminder
+
+###
+GET http://localhost:3000/reminder/634a3dddd3abf8165973ebaa
+
+###
+POST http://localhost:3000/reminder
+
+###
+PUT http://localhost:3000/reminder/634a3dddd3abf8165973ebaa
+
+###
+DELETE http://localhost:3000/reminder/634a3dddd3abf8165973ebaa
