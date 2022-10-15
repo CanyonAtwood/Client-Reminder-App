@@ -1,6 +1,15 @@
 const express = require('express');
-const routes = require("./routes")
+const routes = require("./routes");
+const mongoose = require('mongoose');
+const bodyParser = require("body-parser");
 
+// set up swagger documentation
+const swaggerUi = require('swagger-ui-express');
+const swaggerDoc = require('./swagger.json');
+
+// add dotenv
+const dotenv = require('dotenv');
+dotenv.config()
 
 // connect to the database
 mongoose.connect(process.env.mongodb_uri,
@@ -22,7 +31,7 @@ app.use(express.json());
 app.use(express.urlencoded({extended: true}));
 
 app
-// .use('/api-docs', swaggerUi.serve, swaggerUi.setup(swaggerDoc))
+.use('/api-docs', swaggerUi.serve, swaggerUi.setup(swaggerDoc))
 .use(bodyParser.json())
 .use((req, res, next) => {
 res.setHeader('Access-Control-Allow-Origin', '*');

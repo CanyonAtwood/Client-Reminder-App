@@ -4,6 +4,6 @@ const routes = require('express').Router();
 routes.use('/reminder', require('./reminder'));
 
 // authentification
-routes.use('/', require('./auth'))
+// routes.use('/', require('./auth'))
 
 module.exports = routes;
