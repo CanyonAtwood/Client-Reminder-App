@@ -1,0 +1,18 @@
+[{
+    "clientId": "1",
+    "clientFirstName": "Tommy",
+    "clientLastName": "Sylver",
+    "addDate": "2020",
+    "phone": "125665698",
+    "email": "jenny@gmail.com",
+    "isDone": false
+  },
+  {
+    "clientId": "2",
+    "clientFirstName": "Canyon",
+    "clientLastName": "Atwood",
+    "addDate": "2020",
+    "phone": "125665698",
+    "email": "canyon@user.com",
+    "isDone": false
+    }]
