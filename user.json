@@ -1,12 +1,8 @@
-{
-    "client1": {
-        "clientUsername": "Emily",
-        "clientPassword": "password",
-        "birthday": "05-10-1998",
-        "email": "em@email.com",
-        "phoneNumber": "801-123-4567"
-        }
-    
-
+[{    
+    "message": "Hello, this is a reminder that your appointment is coming up. Please c…",
+    "callbackNumber":"801-123-4567",
+    "officeAddress": "1234 dental street",
+    "websiteLink":"https://www.dentist.org"
 }
+]
 
