@@ -12,3 +12,19 @@ PUT http://localhost:3000/reminder/634a3dddd3abf8165973ebaa
 
 ###
 DELETE http://localhost:3000/reminder/634a3dddd3abf8165973ebaa
+
+
+###
+GET http://localhost:3000/user
+
+###
+POST http://localhost:3000/user HTTP/1.1 
+content-type: application/json
+
+{
+    "firstName": "testtty",
+    "lastName": "test",
+    "username": "username",
+    "password": "password123",
+    "email": "test@test.com"
+}

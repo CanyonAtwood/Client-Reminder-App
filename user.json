@@ -1,0 +1,12 @@
+{
+    "client1": {
+        "clientUsername": "Emily",
+        "clientPassword": "password",
+        "birthday": "05-10-1998",
+        "email": "em@email.com",
+        "phoneNumber": "801-123-4567"
+        }
+    
+
+}
+

@@ -2,6 +2,13 @@ const express = require('express');
 const routes = require("./routes");
 const mongoose = require('mongoose');
 const bodyParser = require("body-parser");
+const router = express.Router();
+
+router.get('/',function(req,res){
+    res.sendFile(__dirname+'/login/index.html');
+    //__dirname : It will resolve to your project folder.
+});
+
 
 // set up swagger documentation
 const swaggerUi = require('swagger-ui-express');
@@ -29,6 +36,7 @@ const port = 3000
 // 
 app.use(express.json());
 app.use(express.urlencoded({extended: true}));
+app.use('/', router);
 
 app
 .use('/api-docs', swaggerUi.serve, swaggerUi.setup(swaggerDoc))
