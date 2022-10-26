@@ -1,7 +1,7 @@
 {
   "name": "client-reminder-app",
   "version": "1.0.0",
-  "description": "This is an application made by Canyon Atwood and Tommy Sylver",
+  "description": "This is an application made by Canyon Atwood and Tommy Sylver and Emily Kessinger",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
